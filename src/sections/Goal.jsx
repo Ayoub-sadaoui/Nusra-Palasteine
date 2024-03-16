@@ -4,7 +4,7 @@ import CardHowPc from "../components/CardHowPc";
 import { carousel, carouselpc } from "../constants";
 const Goal = () => {
   return (
-    <section className="flex flex-col items-center bg-white px-20 py-20">
+    <section className="flex flex-col items-center bg-white px-10 py-20">
       <h1 className="font-bold text-orange-500 text-[50px] text-center font-Aljazeera">
         كيف تشارك ؟
       </h1>
@@ -17,7 +17,7 @@ const Goal = () => {
           );
         })}
       </div>
-      <div className=" w-full mt-20 max-md:hidden flex justify-between">
+      <div className=" w-full mt-20 max-md:hidden flex justify-between px-10">
         {carouselpc.map((card, index) => {
           return (
             <div key={index}>
