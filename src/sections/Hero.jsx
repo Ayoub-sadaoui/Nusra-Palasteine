@@ -43,7 +43,7 @@ const Hero = () => {
         </p>
 
         <div className="grid justify-center max-md:items-center  gap-2 mt-9">
-          <button className="btn btn-active btn-primary  px-10">
+          <button className="lg:px-10 lg:py-4  px-6 py-2 rounded-xl bg-orange-500 hover:shadow text-white  font-[400] font-Aljazeera text-2xl lg:text-[42px]">
             إضغط للتسجيل
           </button>
           <button className="px-4 py-2  flex  items-center justify-center  rounded-lg border-[3px] hover:bg-orange-500   border-white text-white  font-Aljazeera sm:hidden text-xl">
